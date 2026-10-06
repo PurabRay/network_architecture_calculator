@@ -2,6 +2,8 @@
 
 An HTTP/1.1 server written with a plain socket and no framework. It does arithmetic, and it keeps **one TCP connection open for every request**.
 
+Python 3.8+, standard library only, nothing to install.
+
 ```bash
 python3 calc_server.py                     # port 8080  (Windows: python calc_server.py)
 curl "http://localhost:8080/add?a=2&b=3"   # -> 5       (Windows PowerShell: curl.exe ...)
